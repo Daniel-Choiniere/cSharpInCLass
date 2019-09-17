@@ -1,0 +1,2 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/finishLine/finishLine/obj/Debug/finishLine.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/finishLine/finishLine/obj/Debug/finishLine.csproj.CoreCompileInputs.cache
