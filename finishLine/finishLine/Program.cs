@@ -46,27 +46,25 @@ public class Card
 {
     public int suit;
     public int val;
-    private readonly Dictionary<int, string> SUIT_MAP = new Dictionary<int, string> {
-        {0, "\u2663"},
-        {1, "\u2660"},
-        {2, "\u2665"},
-        {3, "\u2666"}
-    };
-    private readonly Dictionary<int, string> VAL_MAP = new Dictionary<int, string> {
-        {1, "Ac"},
-        {10, "10"},
-        {11, "Ja"},
-        {12, "Qu"},
-        {13, "Ki"}
-    };
+    private Dictionary<int, string> SUIT_MAP = new Dictionary<int, string> {
+    {0, "\u2663"},
+    {1, "\u2660"},
+    {2, "\u2665"},
+    {3, "\u2666"}
+  };
+    private Dictionary<int, string> VAL_MAP = new Dictionary<int, string> {
+    {1, "Ac"},
+    {10, "10"},
+    {11, "Ja"},
+    {12, "Qu"},
+    {13, "Ki"}
+  };
 
     public Card(int val, int suit)
     {
         this.val = val;
         this.suit = suit;
     }
-
-
 
     public string Display()
     {
@@ -77,7 +75,6 @@ public class Card
 
         if (this.VAL_MAP.ContainsKey(this.val))
         {
-
             return this.SUIT_MAP[this.suit] + this.VAL_MAP[this.val];
         }
 
@@ -91,7 +88,7 @@ public class Deck
 {
     public List<Card> cards = new List<Card>();
 
-    public Deck(int[] suits, int[] values, int numJokers)
+    public Deck(int[] values, int[] suits, int numJokers)
     {
         foreach (var suit in suits)
         {
@@ -166,7 +163,8 @@ public class Player
             this.markers[markerName] = new Marker(markerNames[markerName]);
         }
     }
-    public string hasMarkersAt(int position)
+
+    public string HasMarkersAt(int position)
     {
         string master = "";
         foreach (var marker in this.markers)
@@ -180,15 +178,16 @@ public class Player
                 master += " ";
             }
         }
+        return master;
     }
 }
 
 public class FinishLine
 {
-    private readonly int[] SUITS = { 0, 1, 2, 3 };
-    private readonly int[] VALUES = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
+    private readonly int[] SUITS = new int[] { 0, 1, 2, 3 };
+    private readonly int[] VALUES = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 };
     private static int NUM_JOKERS = 2;
-    private readonly string[] MARKER_NAMES = { "A", "B", "C" };
+    private readonly string[] MARKER_NAMES = new string[] { "A", "B", "C" };
 
     public Deck deck;
     public Die redDie;
@@ -205,39 +204,55 @@ public class FinishLine
         this.deck = new Deck(this.VALUES, this.SUITS, NUM_JOKERS);
         this.redDie = new Die(6, 0xFF0000);
         this.blackDie = new Die(6, 0x000000);
-
         this.deck.Shuffle(rand);
+        //ValidateDeck();
         this.redDie.Roll(rand);
         this.blackDie.Roll(rand);
     }
 
     public void DisplayBoard()
     {
+        // how to display
+        // \t[SVV]\t[SVV] [SVV] [SVV]
+        // \t_MMM_\t_MMM
+        // ABC
+        // AB
+        // BC
+        // C
+        // A C
+
         Console.Clear();
-        string master = "\t";
+        string master = "";
         string cardRow = "\t";
+        cardRow += "Player1";
         string playerRow = "\t";
+
+        playerRow += this.player1.HasMarkersAt(-1) + " ";
+
+        master += cardRow + '\n' + playerRow + '\n';
+        cardRow = "\t";
+        playerRow = "\t";
+
+
         int counter = 0;
         foreach (Card card in this.deck.cards)
         {
-            cardRow += "|" + card.Display() + "|\t";
-            playerRow += " " + this.player1.hasMarkersAt(counter) + " ";
-
+            cardRow += "|" + card.Display() + "|";
+            playerRow += " " + this.player1.HasMarkersAt(counter) + " ";
             counter++;
             if (counter % 9 == 0)
             {
-                master += cardRow + "\n" + playerRow + "\n";
+                master += cardRow + "\n" + playerRow + "\n\n";
                 cardRow = "\t";
                 playerRow = "\t";
-
             }
             else
             {
-                cardRow = "\t";
-                playerRow = "\t";
-
+                cardRow += "\t";
+                playerRow += "\t";
             }
         }
+        Console.WriteLine(master);
     }
 
 }
@@ -247,22 +262,6 @@ public class Program
     public static void Main()
     {
         var game = new FinishLine(1, "player1");
-        //Console.WriteLine("player 1's {0} marker is at {1}", game.player1.markers[1].name, game.player1.markers[1].position);
-        //Console.WriteLine("First card is {0}", game.deck.cards[0].Display());
-        //Console.WriteLine("Last card is {0}", game.deck.cards[53].Display());
-        //Console.WriteLine("Red die is {0}", game.redDie.val);
-        //Console.WriteLine("Black die is {0}", game.blackDie.val);
         game.DisplayBoard();
-
-
-
-        //Die redDie = new Die(6, 0xFF0000);
-        //var blackDie = new Die(6, 0x000000);
-        //var rand = new Random();
-        //var deck = new Deck(suits, values, 2);
-        //Console.WriteLine(deck.cards.Count);
-        //Console.WriteLine(deck.cards[23].Display());
-        //deck.Shuffle(rand);
-        //Console.WriteLine(deck.cards[23].Display());
     }
 }
