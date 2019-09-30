@@ -1,14 +1,4 @@
-﻿
-// possible classes
-// Die X
-// Deck X
-// Card X
-// Player X
-// Marker X
-// FLMarker /
-// Game or Board
-
-namespace finishLine
+﻿namespace finishLine
 {
     class MainClass
     {

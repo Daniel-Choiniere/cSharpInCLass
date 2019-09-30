@@ -13,12 +13,14 @@ namespace finishLine
         public Die redDie;
         public Die blackDie;
         public Player player1;
-        public int players;
+        public int numPlayers;
+        public Player[] players;
         public Random rand;
 
-        public FinishLine(int players, string player1Name)
+        //needs to be public because it is called from Main class
+        public FinishLine(int numPlayers, string player1Name)
         {
-            this.players = players;
+            this.numPlayers = numPlayers;
             player1 = new Player(player1Name, MARKER_NAMES);
             rand = new Random();
             deck = new Deck(VALUES, SUITS, NUM_JOKERS);
@@ -30,7 +32,7 @@ namespace finishLine
             blackDie.Roll(rand);
         }
 
-        public void DisplayBoard()
+        private void DisplayBoard()
         {
             Console.Clear();
             string master = "";
@@ -65,7 +67,7 @@ namespace finishLine
             Console.WriteLine(master);
         }
 
-        public void ValidateCard(int position)
+        private void ValidateCard(int position)
         {
             if (Array.IndexOf(RESTRICTED_VALUES, deck.cards[position].val) >= 0)
             {
@@ -84,7 +86,7 @@ namespace finishLine
             }
         }
 
-        public void ValidateDeck()
+        private void ValidateDeck()
         {
             int[] RESTRICTED_POSITIONS = { 0, 1, 2, 51, 52, 53 };
             foreach (int position in RESTRICTED_POSITIONS)
@@ -94,21 +96,20 @@ namespace finishLine
 
         }
 
-        public void Turn(Player player)
+        private void Turn(Player player)
         {
             string master = "";
             master += player.name + "'s turn!\n";
             redDie.Roll(rand);
             blackDie.Roll(rand);
             int stopValue = redDie.val + blackDie.val;
-            master += "Red: " + redDie.val + "\tBlack" + blackDie.val + "\tStop Value: " + stopValue + "\n";
+            master += "Red: " + redDie.val + "\tBlack: " + blackDie.val + "\tStop Value: " + stopValue + "\n";
 
             GetMarker("Red", redDie, player, stopValue, master);
             GetMarker("Black", blackDie, player, stopValue, master);
-
         }
 
-        public void GetMarker(string dieName, Die die, Player player, int stopValue, string master)
+        private void GetMarker(string dieName, Die die, Player player, int stopValue, string master)
         {
             Console.WriteLine(master);
             Console.WriteLine("Choose marker (a,b,c) for {0}", dieName);
@@ -119,20 +120,31 @@ namespace finishLine
             DisplayBoard();
         }
 
-        public void Round()
-        {
-            Turn(player1);
+        private Player Round()
+        { 
+            if (DidWin(player1))
+                return player1;
+
+            return null;
         }
 
+        //needs to be public. Called from the Main class
         public void PlayGame()
         {
             while (true)
             {
-                Round();
-                //break;
+                Player winner = Round();
+                if (winner != null)
+                {
+                    Console.WriteLine("Congrats {0}! You win!", winner.name);
+                    break;
+                }
             }
-
         }
-
+        private bool DidWin(Player player)
+        {
+            return player.HasMarkersAt(53) == "ABC";
+        }
     }
+
 }

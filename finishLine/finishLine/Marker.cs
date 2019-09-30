@@ -12,9 +12,6 @@
             this.name = name;
         }
 
-        public virtual void Move(int spaces)
-        {
-            position += spaces;
-        }
+        public virtual void Move(int spaces) => position += spaces;
     }
 }
