@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace finishLine
+﻿namespace finishLine
 {
     public class Player
     {

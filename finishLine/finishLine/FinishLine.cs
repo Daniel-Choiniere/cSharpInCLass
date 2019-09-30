@@ -98,10 +98,10 @@ namespace finishLine
         {
             string master = "";
             master += player.name + "'s turn!\n";
-            this.redDie.Roll(this.rand);
-            this.blackDie.Roll(this.rand);
-            int stopValue = this.redDie.val + this.blackDie.val;
-            master += "Red: " + this.redDie.val + "\tBlack" + this.blackDie.val + "\tStop Value: " + stopValue + "\n";
+            redDie.Roll(rand);
+            blackDie.Roll(rand);
+            int stopValue = redDie.val + blackDie.val;
+            master += "Red: " + redDie.val + "\tBlack" + blackDie.val + "\tStop Value: " + stopValue + "\n";
 
             GetMarker("Red", redDie, player, stopValue, master);
             GetMarker("Black", blackDie, player, stopValue, master);
@@ -114,7 +114,8 @@ namespace finishLine
             Console.WriteLine("Choose marker (a,b,c) for {0}", dieName);
             string input = Console.ReadLine();
             int inputIndex = player.FindMarker(input.ToUpper());
-            player.markers[inputIndex].Move(blackDie.val, blackDie.val, this.deck);
+            player.markers[inputIndex].Move(blackDie.val, blackDie.val, deck);
+
             DisplayBoard();
         }
 
@@ -128,7 +129,7 @@ namespace finishLine
             while (true)
             {
                 Round();
-                break;
+                //break;
             }
 
         }
