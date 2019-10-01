@@ -12,16 +12,20 @@ namespace finishLine
         public Deck deck;
         public Die redDie;
         public Die blackDie;
-        public Player player1;
+        //public Player player1;
         public int numPlayers;
         public Player[] players;
         public Random rand;
 
-        //needs to be public because it is called from Main class
-        public FinishLine(int numPlayers, string player1Name)
+        public FinishLine(int numPlayers, string[] playerNames)
         {
             this.numPlayers = numPlayers;
-            player1 = new Player(player1Name, MARKER_NAMES);
+            players = new Player[numPlayers];
+            for (int counter = 0; counter < numPlayers; counter++)
+            {
+                players[counter] = new Player(playerNames[counter], MARKER_NAMES);
+            }
+            
             rand = new Random();
             deck = new Deck(VALUES, SUITS, NUM_JOKERS);
             redDie = new Die(6, 0xFF0000);
@@ -32,36 +36,69 @@ namespace finishLine
             blackDie.Roll(rand);
         }
 
+        private void intializePlayerRow(string[] playerRow)
+        {
+            for (int count = 0; count < numPlayers; count++)
+            {
+                playerRow[count] = "\t";
+            }
+        }
+
         private void DisplayBoard()
         {
             Console.Clear();
             string master = "";
             string cardRow = "\t";
-            string playerRow = "\t";
+            string[] playerRow = new string[numPlayers];
+            
 
-            cardRow += "Player1";
-            playerRow += player1.HasMarkersAt(-1);
+            foreach (var player in players)
+            {
+                cardRow += player.name + "\t";
+                playerRow[0] += player.HasMarkersAt(-1) + "\t";
+            }
 
-            master += cardRow + "\n" + playerRow + "\n\n";
+            //cardRow += "Player1";
+            //playerRow += player1.HasMarkersAt(-1);
+
+            master += cardRow + "\n" + playerRow[0] + "\n\n";
             cardRow = "\t";
-            playerRow = "\t";
+            intializePlayerRow(playerRow);
 
-            int counter = 0;
+            int position = 0;
             foreach (Card card in deck.cards)
             {
                 cardRow += "|" + card.Display() + "|";
-                playerRow += " " + player1.HasMarkersAt(counter) + " ";
-                counter++;
-                if (counter % 9 == 0)
+
+                for (var count=0; count < numPlayers; count++)
                 {
-                    master += cardRow + "\n" + playerRow + "\n\n";
+                    playerRow[count] += " " + this.players[count].HasMarkersAt(position) + " ";
+                }
+
+                //playerRow += " " + player1.HasMarkersAt(counter) + " ";
+                position++;
+
+                if (position % 9 == 0)
+                {
+                    master += cardRow + "\n";
+                    for (int count = 0; count < numPlayers; count++)
+                    {
+                        master += playerRow[count] + "\n";
+                    }
+                    master += "\n";
                     cardRow = "\t";
-                    playerRow = "\t";
+                    intializePlayerRow(playerRow);
                 }
                 else
                 {
+                 
                     cardRow += "\t";
-                    playerRow += "\t";
+                    for (var count=0; count< numPlayers; count++)
+                    {
+                        playerRow[count] += "\t";
+                    }
+
+                   
                 }
             }
             Console.WriteLine(master);
@@ -96,7 +133,7 @@ namespace finishLine
 
         }
 
-        private void Turn(Player player)
+        public void Turn(Player player)
         {
             string master = "";
             master += player.name + "'s turn!\n";
@@ -121,14 +158,18 @@ namespace finishLine
         }
 
         private Player Round()
-        { 
-            if (DidWin(player1))
-                return player1;
+        {
+            foreach (var player in players)
+            {
+                Turn(player);
+                if (DidWin(player))
+                    return player;
+            }
+            
 
             return null;
         }
 
-        //needs to be public. Called from the Main class
         public void PlayGame()
         {
             while (true)
