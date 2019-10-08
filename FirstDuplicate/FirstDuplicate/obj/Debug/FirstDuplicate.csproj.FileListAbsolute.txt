@@ -1,0 +1,5 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/FirstDuplicate/FirstDuplicate/bin/Debug/FirstDuplicate.exe
+/Users/danchoiniere/careerDevs/cSharpInCLass/FirstDuplicate/FirstDuplicate/bin/Debug/FirstDuplicate.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/FirstDuplicate/FirstDuplicate/obj/Debug/FirstDuplicate.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/FirstDuplicate/FirstDuplicate/obj/Debug/FirstDuplicate.exe
+/Users/danchoiniere/careerDevs/cSharpInCLass/FirstDuplicate/FirstDuplicate/obj/Debug/FirstDuplicate.pdb

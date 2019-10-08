@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="FinishLine.cs">
     <Files>
       <File FileName="Program.cs" Line="12" Column="1" />
-      <File FileName="FinishLine.cs" Line="19" Column="1" />
+      <File FileName="FinishLine.cs" Line="83" Column="36" />
       <File FileName="Player.cs" />
       <File FileName="Marker.cs" />
       <File FileName="FLMarker.cs" />

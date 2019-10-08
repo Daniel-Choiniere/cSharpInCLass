@@ -12,7 +12,6 @@ namespace finishLine
         public Deck deck;
         public Die redDie;
         public Die blackDie;
-        //public Player player1;
         public int numPlayers;
         public Player[] players;
         public Random rand;
@@ -58,9 +57,6 @@ namespace finishLine
                 playerRow[0] += player.HasMarkersAt(-1) + "\t";
             }
 
-            //cardRow += "Player1";
-            //playerRow += player1.HasMarkersAt(-1);
-
             master += cardRow + "\n" + playerRow[0] + "\n\n";
             cardRow = "\t";
             intializePlayerRow(playerRow);
@@ -75,7 +71,6 @@ namespace finishLine
                     playerRow[count] += " " + this.players[count].HasMarkersAt(position) + " ";
                 }
 
-                //playerRow += " " + player1.HasMarkersAt(counter) + " ";
                 position++;
 
                 if (position % 9 == 0)
