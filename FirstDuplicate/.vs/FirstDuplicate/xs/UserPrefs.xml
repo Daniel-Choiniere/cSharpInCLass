@@ -1,8 +1,5 @@
 ﻿<Properties StartupConfiguration="{14A2B258-19F1-4512-B329-B9252B2C86C4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FirstDuplicate/Program.cs">
-    <Files>
-      <File FileName="FirstDuplicate/Program.cs" Line="27" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -17,7 +14,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.FirstDuplicate FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.FirstDuplicate PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

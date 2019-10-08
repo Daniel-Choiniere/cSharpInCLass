@@ -1,0 +1,5 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/NewYearChaos/NewYearChaos/bin/Debug/NewYearChaos.exe
+/Users/danchoiniere/careerDevs/cSharpInCLass/NewYearChaos/NewYearChaos/bin/Debug/NewYearChaos.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/NewYearChaos/NewYearChaos/obj/Debug/NewYearChaos.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/NewYearChaos/NewYearChaos/obj/Debug/NewYearChaos.exe
+/Users/danchoiniere/careerDevs/cSharpInCLass/NewYearChaos/NewYearChaos/obj/Debug/NewYearChaos.pdb
