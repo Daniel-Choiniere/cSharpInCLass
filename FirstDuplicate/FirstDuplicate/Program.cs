@@ -13,16 +13,13 @@ class MainClass
             NumbersInList.Add(number);
         }
 
-        for (int i = 0; i < NumbersInList.Count; i++)
+        foreach (int item in NumbersInList)
         {
-            NumToCheck.Add(NumbersInList[i]);
-
-            NumbersInList.Remove(NumbersInList[i]);
-
-            if (NumToCheck.IndexOf(NumbersInList[0]) != -1)
+            if (NumToCheck.IndexOf(item) != -1)
             {
-                return NumbersInList[i];
+                return item;
             }
+            NumToCheck.Add(item);
         }
         return -1;
     }
