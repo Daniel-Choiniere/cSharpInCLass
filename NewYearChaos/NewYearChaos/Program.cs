@@ -1,55 +1,57 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+using System;
 
-namespace NewYearChaos
+class Solution
 {
-    class MainClass
+
+    // Complete the minimumBribes function below.
+    static void minimumBribes(int[] q)
     {
-        static int MinimumBribes(int[] q)
+        int BribeCounter = 0;
+        bool alreadyLogged = false;
+
+        for (int k = 0; k < q.Length; k++)
         {
-
-            int BribeCounter = 0;
-
-            for (int j = 0; j < q.Length; j++)
+            if ((k + 1 - q[k]) < -2)
             {
-                for (int i = 1; i < q.Length; i++)
-                {
-                    if (q[i] < q[i - 1])
-                    {
-                        BribeCounter++;
-
-                        int temp;
-                        temp = q[i - 1];
-                        q[i - 1] = q[i];
-                        q[i] = temp;
-                    }
-                }
+                Console.WriteLine("Too chaotic");
+                alreadyLogged = true;
+                break;
             }
-            //foreach (int item in q)
-            //{
-            //    Console.WriteLine(item);
-            //}
-
-            foreach (int item in q)
-            {
-
-            }
-
-            return BribeCounter;
         }
 
-        public static void Main(string[] args)
+        for (int j = 0; j < q.Length; j++)
         {
-            //not valid
-            //int[] array = { 2, 5, 1, 3, 4 };
+            for (int i = 1; i < q.Length; i++)
+            {
+                if (q[i] < q[i - 1])
+                {
+                    BribeCounter++;
 
-            //valid
-            int[] array = { 2, 1, 5, 3, 4 };
-            
+                    int temp;
+                    temp = q[i - 1];
+                    q[i - 1] = q[i];
+                    q[i] = temp;
+                }
+            }
+        }
+        if (alreadyLogged == false)
+        {
+            Console.WriteLine(BribeCounter);
+        }
+    }
 
-            int totalNumberOfBribes = MinimumBribes(array);
+    static void Main(string[] args)
+    {
+        int t = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(totalNumberOfBribes);
+        for (int tItr = 0; tItr < t; tItr++)
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            int[] q = Array.ConvertAll(Console.ReadLine().Split(' '), qTemp => Convert.ToInt32(qTemp))
+            ;
+            minimumBribes(q);
         }
     }
 }
