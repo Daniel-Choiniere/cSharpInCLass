@@ -5,23 +5,9 @@ namespace NewYearChaos
 {
     class MainClass
     {
-        //public static bool IsSorted(List<int> list)
-        //{
-        //    for (int i = 1; i < list.Count; i++)
-        //    {
-        //        if (list[i - 1] > list[i])
-        //        {
-        //            return false;
-        //        }
-        //    }
-        //    return true;
-        //}
-
-
-        //add in logic to check if swaps are more than 2
-
         static int MinimumBribes(int[] q)
         {
+
             int BribeCounter = 0;
 
             for (int j = 0; j < q.Length; j++)
@@ -39,6 +25,16 @@ namespace NewYearChaos
                     }
                 }
             }
+            //foreach (int item in q)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            foreach (int item in q)
+            {
+
+            }
+
             return BribeCounter;
         }
 
