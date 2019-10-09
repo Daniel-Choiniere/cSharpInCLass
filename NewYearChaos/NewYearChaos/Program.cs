@@ -17,45 +17,39 @@ namespace NewYearChaos
         //    return true;
         //}
 
+
+        //add in logic to check if swaps are more than 2
+
         static int MinimumBribes(int[] q)
         {
-            List<int> LineQueue = BuildList(q);
-
             int BribeCounter = 0;
 
-            for (int j = 0; j < LineQueue.Count; j++)
+            for (int j = 0; j < q.Length; j++)
             {
-                for (int i = 1; i < LineQueue.Count; i++)
+                for (int i = 1; i < q.Length; i++)
                 {
-                    //add in logic to check if swaps are more than 2
-
-                    if (LineQueue[i] < LineQueue[i - 1])
+                    if (q[i] < q[i - 1])
                     {
                         BribeCounter++;
 
                         int temp;
-                        temp = LineQueue[i - 1];
-                        LineQueue[i - 1] = LineQueue[i];
-                        LineQueue[i] = temp;
+                        temp = q[i - 1];
+                        q[i - 1] = q[i];
+                        q[i] = temp;
                     }
                 }
             }
             return BribeCounter;
         }
 
-        private static List<int> BuildList(int[] q)
-        {
-            List<int> Queue = new List<int>();
-
-            foreach (int item in q)
-                Queue.Add(item);
-
-            return Queue;
-        }
-
         public static void Main(string[] args)
         {
-            int[] array = { 1, 2, 5, 3, 4, 7, 8, 6 };
+            //not valid
+            //int[] array = { 2, 5, 1, 3, 4 };
+
+            //valid
+            int[] array = { 2, 1, 5, 3, 4 };
+            
 
             int totalNumberOfBribes = MinimumBribes(array);
 
