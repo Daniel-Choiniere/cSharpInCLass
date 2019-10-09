@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{AAF24830-A7F4-4667-A101-36CAC30CA4B1}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="NewYearChaos/Program.cs">
     <Files>
-      <File FileName="NewYearChaos/Program.cs" Line="11" Column="6" />
+      <File FileName="NewYearChaos/Program.cs" Line="48" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +15,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.NewYearChaos FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.NewYearChaos PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
