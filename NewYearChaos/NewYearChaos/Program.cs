@@ -3,7 +3,6 @@ using System;
 
 class Solution
 {
-
     // Complete the minimumBribes function below.
     static void minimumBribes(int[] q)
     {
@@ -35,6 +34,7 @@ class Solution
                 }
             }
         }
+
         if (alreadyLogged == false)
         {
             Console.WriteLine(BribeCounter);

@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/bin/Debug/netcoreapp3.0/mostViewedWriters
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/bin/Debug/netcoreapp3.0/mostViewedWriters.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/bin/Debug/netcoreapp3.0/mostViewedWriters.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/bin/Debug/netcoreapp3.0/mostViewedWriters.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/bin/Debug/netcoreapp3.0/mostViewedWriters.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/bin/Debug/netcoreapp3.0/mostViewedWriters.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/obj/Debug/netcoreapp3.0/mostViewedWriters.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/obj/Debug/netcoreapp3.0/mostViewedWriters.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/obj/Debug/netcoreapp3.0/mostViewedWriters.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/obj/Debug/netcoreapp3.0/mostViewedWriters.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/mostViewedWriters/mostViewedWriters/obj/Debug/netcoreapp3.0/mostViewedWriters.pdb
