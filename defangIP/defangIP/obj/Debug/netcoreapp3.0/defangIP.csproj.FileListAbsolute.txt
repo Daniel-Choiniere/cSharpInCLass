@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/bin/Debug/netcoreapp3.0/defangIP
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/bin/Debug/netcoreapp3.0/defangIP.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/bin/Debug/netcoreapp3.0/defangIP.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/bin/Debug/netcoreapp3.0/defangIP.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/bin/Debug/netcoreapp3.0/defangIP.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/bin/Debug/netcoreapp3.0/defangIP.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/obj/Debug/netcoreapp3.0/defangIP.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/obj/Debug/netcoreapp3.0/defangIP.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/obj/Debug/netcoreapp3.0/defangIP.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/obj/Debug/netcoreapp3.0/defangIP.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/defangIP/defangIP/obj/Debug/netcoreapp3.0/defangIP.pdb
