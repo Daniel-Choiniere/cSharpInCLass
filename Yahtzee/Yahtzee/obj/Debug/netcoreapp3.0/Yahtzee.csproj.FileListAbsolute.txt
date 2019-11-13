@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/bin/Debug/netcoreapp3.0/Yahtzee
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/bin/Debug/netcoreapp3.0/Yahtzee.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/bin/Debug/netcoreapp3.0/Yahtzee.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/bin/Debug/netcoreapp3.0/Yahtzee.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/bin/Debug/netcoreapp3.0/Yahtzee.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/bin/Debug/netcoreapp3.0/Yahtzee.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/obj/Debug/netcoreapp3.0/Yahtzee.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/obj/Debug/netcoreapp3.0/Yahtzee.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/obj/Debug/netcoreapp3.0/Yahtzee.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/obj/Debug/netcoreapp3.0/Yahtzee.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/Yahtzee/Yahtzee/obj/Debug/netcoreapp3.0/Yahtzee.pdb

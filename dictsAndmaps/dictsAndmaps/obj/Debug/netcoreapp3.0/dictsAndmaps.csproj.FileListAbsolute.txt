@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/bin/Debug/netcoreapp3.0/dictsAndmaps
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/bin/Debug/netcoreapp3.0/dictsAndmaps.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/bin/Debug/netcoreapp3.0/dictsAndmaps.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/bin/Debug/netcoreapp3.0/dictsAndmaps.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/bin/Debug/netcoreapp3.0/dictsAndmaps.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/bin/Debug/netcoreapp3.0/dictsAndmaps.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/obj/Debug/netcoreapp3.0/dictsAndmaps.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/obj/Debug/netcoreapp3.0/dictsAndmaps.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/obj/Debug/netcoreapp3.0/dictsAndmaps.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/obj/Debug/netcoreapp3.0/dictsAndmaps.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/dictsAndmaps/dictsAndmaps/obj/Debug/netcoreapp3.0/dictsAndmaps.pdb
