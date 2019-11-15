@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/obj/Debug/netcoreapp3.0/DnD.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/obj/Debug/netcoreapp3.0/DnD.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/obj/Debug/netcoreapp3.0/DnD.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/bin/Debug/netcoreapp3.0/DnD
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/bin/Debug/netcoreapp3.0/DnD.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/bin/Debug/netcoreapp3.0/DnD.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/bin/Debug/netcoreapp3.0/DnD.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/bin/Debug/netcoreapp3.0/DnD.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/bin/Debug/netcoreapp3.0/DnD.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/obj/Debug/netcoreapp3.0/DnD.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/DnD/DnD/obj/Debug/netcoreapp3.0/DnD.pdb

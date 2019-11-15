@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Yahtzee
 {
-    class Die
+    internal class Die
     {
         private readonly int _numOfSides;
 
