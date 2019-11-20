@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/bin/Debug/netcoreapp3.0/HIorLow
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/bin/Debug/netcoreapp3.0/HIorLow.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/bin/Debug/netcoreapp3.0/HIorLow.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/bin/Debug/netcoreapp3.0/HIorLow.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/bin/Debug/netcoreapp3.0/HIorLow.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/bin/Debug/netcoreapp3.0/HIorLow.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/obj/Debug/netcoreapp3.0/HIorLow.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/obj/Debug/netcoreapp3.0/HIorLow.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/obj/Debug/netcoreapp3.0/HIorLow.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/obj/Debug/netcoreapp3.0/HIorLow.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/HIorLow/HIorLow/obj/Debug/netcoreapp3.0/HIorLow.pdb
