@@ -46,7 +46,12 @@ namespace HIorLow
                 var guessStatus = true;
                 while (guessStatus)
                 {
+                    
                     var nextCard = getRandomCard();
+                    while (nextCard == currentCard)
+                    {
+                        nextCard = getRandomCard();
+                    }
                     
                     Console.WriteLine(currentCard);
                     Console.WriteLine(nextCard);
