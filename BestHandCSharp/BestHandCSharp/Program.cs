@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 
 namespace BestHandCSharp
 {
@@ -9,8 +7,8 @@ namespace BestHandCSharp
         static void Main(string[] args)
         {
             var deck1 = Deck.CreateFullDeck();
-//            Console.WriteLine(deck1.Cards[1].Number);
-
+            deck1.Shuffle();
+            
             foreach (var item in deck1.Cards)
             {
                 Console.WriteLine("{0} {1}",  item.Number, item.Suit);
