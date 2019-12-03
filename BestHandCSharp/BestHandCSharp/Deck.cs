@@ -82,13 +82,12 @@ namespace BestHandCSharp
             foreach (Card card in Cards)
             {
                 int result;
-                Console.WriteLine(card.Number);
                 if (myDict.TryGetValue(card.Number.ToString(), out result))
                 {
                     total += result;
                 }
             }   
-            Console.Write("Total sum of had is: " + total);
+            Console.Write("Total sum of hand is: " + total + "\n");
         }
-    }
+    }    
 }

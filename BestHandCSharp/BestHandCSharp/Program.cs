@@ -6,7 +6,7 @@ namespace BestHandCSharp
     {
         static void Main(string[] args)
         {
-            Game.StartGame();
+            Game.StartGame(4);
         }
     }
 }
