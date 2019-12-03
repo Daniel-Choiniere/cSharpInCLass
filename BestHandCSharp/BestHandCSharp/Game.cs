@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BestHandCSharp
 {
@@ -7,18 +8,20 @@ namespace BestHandCSharp
     {
         public static void StartGame(int players)
         {
-            List<Deck> DeckList = new List<Deck>();
+            List<int> DeckList = new List<int>();
             var numPlayers = players;
             while (numPlayers > 0)
             {
                 var deck1 = Deck.CreateFullDeck();
                 deck1.Shuffle();
                 deck1.CreateHand();
-                deck1.SumOfHand();
-                DeckList.Add(deck1);
+                DeckList.Add(deck1.SumOfHand());
                 
                 numPlayers--;
             }
+
+            var winner = DeckList.IndexOf(DeckList.Max());
+            Console.WriteLine("The winner is Player: " + (winner + 1));
         }
     }
 }

@@ -59,7 +59,7 @@ namespace BestHandCSharp
             }
         }
 
-        public void SumOfHand()
+        public int SumOfHand()
         {
             var myDict = new Dictionary<string, int>
             {
@@ -88,6 +88,7 @@ namespace BestHandCSharp
                 }
             }   
             Console.Write("Total sum of hand is: " + total + "\n");
+            return total;
         }
     }    
 }
