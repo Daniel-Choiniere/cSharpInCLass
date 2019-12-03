@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj": {}
+    "/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj": {}
   },
   "projects": {
-    "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj": {
+    "/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
+        "projectUniqueName": "/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
         "projectName": "BestHandCSharp",
-        "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
+        "projectPath": "/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
         "packagesPath": "/Users/danchoiniere/.nuget/packages/",
-        "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/",
+        "outputPath": "/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -9,3 +9,14 @@
 /Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.pdb
 /Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.dll
 /Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.pdb
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.deps.json
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.runtimeconfig.json
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.dll
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.pdb
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.dll
+/Users/danchoiniere/careerDevs/careerDevsInner/cSharpInClass/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.pdb
