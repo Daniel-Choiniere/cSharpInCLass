@@ -21,7 +21,7 @@ namespace BestHandCSharp
             }
 
             var winner = DeckList.IndexOf(DeckList.Max());
-            Console.WriteLine("The winner is Player: " + (winner + 1));
+            Console.WriteLine("The winner is Player: {0}", winner + 1);
         }
     }
 }
