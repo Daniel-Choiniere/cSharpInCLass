@@ -8,13 +8,16 @@ namespace BestHandCSharp
         {
             var deck1 = Deck.CreateFullDeck();
             deck1.Shuffle();
-            
             deck1.CreateHand();
+
+            deck1.SumOfHand();
             
-            foreach (var item in deck1.Cards)
-            {
-                Console.WriteLine("{0} {1}",  item.Number, item.Suit);
-            }
+            
+//            foreach (var item in deck1.Cards)
+//            {
+//                Console.WriteLine("{0} {1}",  item.Number, item.Suit);
+//            }
+
         }
     }
 }

@@ -6,6 +6,7 @@ namespace BestHandCSharp
     public class Deck
     {
         public List<Card> Cards { get; }
+        readonly Random random = new Random();
         
         private Deck()
         {
@@ -25,12 +26,25 @@ namespace BestHandCSharp
             return deck;
         }
         
+        public void Shuffle()
+        {
+            List<Card> cardsToShuffle = new List<Card>(Cards);
+            Cards.Clear();
+            while (cardsToShuffle.Count > 0)
+            {
+                var cardIndex = random.Next(cardsToShuffle.Count);
+
+                var cardToShuffle = cardsToShuffle[cardIndex];
+                cardsToShuffle.RemoveAt(cardIndex);
+
+                Cards.Add(cardToShuffle);
+            }
+        }
+        
         public void CreateHand()
         {
             int handSize = 8;
             
-            
-            Random random = new Random();
             List<Card> cardsToMakeHandFrom = new List<Card>(Cards);
             Cards.Clear();
             
@@ -44,22 +58,17 @@ namespace BestHandCSharp
                 Cards.Add(cardForNewHand);
             }
         }
-        
-        public void Shuffle()
+
+        public void SumOfHand()
         {
-            Random random = new Random();
-            
-            List<Card> cardsToShuffle = new List<Card>(Cards);
-            Cards.Clear();
-            while (cardsToShuffle.Count > 0)
+            foreach (Card card in Cards)
             {
-                var cardIndex = random.Next(cardsToShuffle.Count);
-
-                var cardToShuffle = cardsToShuffle[cardIndex];
-                cardsToShuffle.RemoveAt(cardIndex);
-
-                Cards.Add(cardToShuffle);
-            }
+//                Console.WriteLine(card.Number);
+                if (card.Number.ToString() == "Jack")
+                {
+                    Console.WriteLine("Hola");
+                }
+            }    
         }
     }
 }
