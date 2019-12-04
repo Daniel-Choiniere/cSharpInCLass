@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/bin/Debug/netcoreapp3.0/GoFish
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/bin/Debug/netcoreapp3.0/GoFish.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/bin/Debug/netcoreapp3.0/GoFish.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/bin/Debug/netcoreapp3.0/GoFish.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/obj/Debug/netcoreapp3.0/GoFish.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/obj/Debug/netcoreapp3.0/GoFish.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/obj/Debug/netcoreapp3.0/GoFish.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/obj/Debug/netcoreapp3.0/GoFish.pdb
