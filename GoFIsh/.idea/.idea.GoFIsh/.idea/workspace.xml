@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31aa9c0b-a28b-431c-aaee-0721df6d0109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/Card.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/Deck.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/Suit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoFish/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Deck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +44,12 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575422853336</updated>
-      <workItem from="1575422855027" duration="768000" />
+      <workItem from="1575422855027" duration="2704000" />
     </task>
     <servers />
   </component>
