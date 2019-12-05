@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31aa9c0b-a28b-431c-aaee-0721df6d0109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GoFish/FishForCard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/FishForCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/FishForCard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
@@ -94,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575422853336</updated>
-      <workItem from="1575422855027" duration="5924000" />
+      <workItem from="1575422855027" duration="6830000" />
     </task>
     <servers />
   </component>
