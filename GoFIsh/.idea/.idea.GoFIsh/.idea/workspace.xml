@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31aa9c0b-a28b-431c-aaee-0721df6d0109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GoFish/FishForCard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Deck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
@@ -20,6 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GoFish/FishForCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GoFish/Deck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GoFish/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GoFish/Suit.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,7 +33,9 @@
         <option value="$PROJECT_DIR$/GoFish/Card.cs" />
         <option value="$PROJECT_DIR$/GoFish/Suit.cs" />
         <option value="$PROJECT_DIR$/GoFish/Deck.cs" />
+        <option value="$PROJECT_DIR$/GoFish/SwapCards.cs" />
         <option value="$PROJECT_DIR$/GoFish/Program.cs" />
+        <option value="$PROJECT_DIR$/GoFish/FishForCard.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575422853336</updated>
-      <workItem from="1575422855027" duration="2704000" />
+      <workItem from="1575422855027" duration="5924000" />
     </task>
     <servers />
   </component>
