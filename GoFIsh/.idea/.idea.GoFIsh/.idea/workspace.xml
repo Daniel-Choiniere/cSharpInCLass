@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31aa9c0b-a28b-431c-aaee-0721df6d0109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DnD/DnD/Die.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DnD/DnD/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DnD/.idea/.idea.DnD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DnD/.idea/.idea.DnD/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DnD/DnD/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DnD/DnD/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DnD/DnD/bin/Debug/netcoreapp3.0/DnD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DnD/DnD/bin/Debug/netcoreapp3.0/DnD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DnD/DnD/bin/Debug/netcoreapp3.0/DnD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DnD/DnD/bin/Debug/netcoreapp3.0/DnD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DnD/DnD/obj/Debug/netcoreapp3.0/DnD.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../DnD/DnD/obj/Debug/netcoreapp3.0/DnD.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DnD/DnD/obj/Debug/netcoreapp3.0/DnD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../DnD/DnD/obj/Debug/netcoreapp3.0/DnD.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Deck.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/FishForCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/FishForCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
@@ -30,10 +40,10 @@
       <list>
         <option value="$PROJECT_DIR$/GoFish/Card.cs" />
         <option value="$PROJECT_DIR$/GoFish/Suit.cs" />
-        <option value="$PROJECT_DIR$/GoFish/Deck.cs" />
         <option value="$PROJECT_DIR$/GoFish/SwapCards.cs" />
         <option value="$PROJECT_DIR$/GoFish/Program.cs" />
         <option value="$PROJECT_DIR$/GoFish/FishForCard.cs" />
+        <option value="$PROJECT_DIR$/GoFish/Deck.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575422853336</updated>
-      <workItem from="1575422855027" duration="6830000" />
+      <workItem from="1575422855027" duration="11657000" />
     </task>
     <servers />
   </component>

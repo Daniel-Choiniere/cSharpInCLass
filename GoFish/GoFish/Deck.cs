@@ -43,22 +43,29 @@ namespace GoFish
             }
         }
         
-        public void CreateHand(int handSize)
+        public List<Card> CreateHand(int handSize)
         {
-            List<Card> cardsToMakeHandFrom = new List<Card>(Cards);
-            Cards.Clear();
-            
+            List<Card> Hand = new List<Card>();
+
             for (int numCards = 0; numCards < handSize; numCards++)
             {
-                var cardIndex = random.Next(cardsToMakeHandFrom.Count);
+                var cardIndex = random.Next(Cards.Count);
 
-                var cardForNewHand = cardsToMakeHandFrom[cardIndex];
-                cardsToMakeHandFrom.RemoveAt(cardIndex);
-
-                Cards.Add(cardForNewHand);
+                var cardForNewHand = Cards[cardIndex];
+                Cards.RemoveAt(cardIndex);
+                
+                Hand.Add(cardForNewHand);
             }
+            return Hand;
         }
-        
-        
+
+
+        public Card PullSingleCard()
+        {
+            var cardIndex = random.Next(Cards.Count);
+
+            var cardForNewHand = Cards[cardIndex];
+            Cards.RemoveAt(cardIndex);
+        }
     }
 }

@@ -13,13 +13,17 @@ namespace GoFish
         private static void CreateHands(int handSize)
         {
             var playerOne = Deck.CreateFullDeck();
-            var AI = Deck.CreateFullDeck();
-            playerOne.Shuffle();
-            AI.Shuffle();
-            playerOne.CreateHand(handSize);
-            AI.CreateHand(handSize);
+            var ai = Deck.CreateFullDeck();
             
-            FishForCard.Fish(playerOne, AI);
+            playerOne.Shuffle();
+            ai.Shuffle();
+            
+            var playerOneHand = playerOne.CreateHand(handSize);
+            var aiHand = ai.CreateHand(handSize);
+
+            FishForCard.DisplayHands(playerOneHand, aiHand);
+
+            FishForCard.Fish(playerOneHand, aiHand);
         }
     }
 }

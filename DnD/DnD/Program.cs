@@ -3,15 +3,6 @@ using System.Collections.Generic;
 
 namespace DnD
 {
-    public class Die
-    {
-        public int rollNum;
-        public Die(int sides)
-        {
-            rollNum  = new Random().Next(1, sides);
-        }
-    }
-    
     class Program
     {
         static void Main()
@@ -21,46 +12,61 @@ namespace DnD
         
         private static void StartGame()
         {
-            Die die1 = new Die(20);
-            Console.WriteLine("Intial Roll: " + die1.rollNum);
-
             int modifier = 10;
             int armorClass = 20;
-            int numDamageDice = 2;
 
-            if (die1.rollNum == 1)
+            Die die1 = new Die(20);
+
+            int rollNumber = die1.GetRollnum();
+            Console.WriteLine("Initial Roll: " + rollNumber);
+            
+            if (rollNumber == 1)
             {
                 Console.WriteLine("Critical Miss!!!");
                 return;
             }
             
-            int damageDealt = die1.rollNum + modifier;
+            int damageDealt = rollNumber + modifier;
+            Console.WriteLine("The initial roll number is " + rollNumber +  " and the modifier is " + modifier + ". Your total damage dealt is " + (modifier + rollNumber) );
+            Console.WriteLine("Your Armor Class is " + armorClass);
             
-            if (damageDealt < armorClass && die1.rollNum < 20)
+            if (damageDealt <= armorClass && rollNumber < 20)
             {
                 Console.WriteLine("Critical Miss!!!");
+                return;
+            }
+            
+            if (rollNumber == 20)
+            {
+                Console.WriteLine("Critical Hit!!!");
+                HitPoints(2);
             }
             else
             {
-                List<int> damageDiceArr = new List<int>();
-                
-                for (var i = 0; i < numDamageDice; i++)
-                {
-                    Die damageDie = new Die(8);
-                    damageDiceArr.Add(damageDie.rollNum);
-                }
-                
-                int totalHitPoints = 0;
-                foreach (var dieValue in damageDiceArr)
-                {
-                    totalHitPoints += dieValue;
-                }
-            
-                Console.WriteLine("Hit! " + totalHitPoints + " Hit Points Dealt!!");
+                HitPoints(1); 
             }
+        }
+
+        private static void HitPoints(int numDice)
+        {
+            List<int> damageDiceArr = new List<int>();
+            
+            for (var i = 0; i < numDice; i++)
+            {
+                Die damageDie = new Die(8);
+                damageDiceArr.Add(damageDie.GetRollnum());
+            }
+            
+            int totalHitPoints = 0;
+            foreach (var dieValue in damageDiceArr)
+            {
+                Console.WriteLine("Damage Roll: " + dieValue);
+                totalHitPoints += dieValue;
+            }
+        
+            Console.WriteLine("Hit! " + totalHitPoints + " Hit Points Dealt!!");
         }
     }
 }
 
-//Time for MVP 1:41
 
