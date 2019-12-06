@@ -15,9 +15,9 @@ On a hit, roll the provided damage dice into and return the damage
 Constraints:
     - modifier = -100 <= x <= 100
     - armor class = 0 <= x <= 50
-    - damage dice = string ex 1d4 2d8 3d100
     
 Current State of Project:
+    Not being a DnD player I am not sure if I have implemented all game objective/rules exactly as should be.
     I would consider this game to be a MVP version of what the final game would look like.
     It performs all of the basic requirements, and will run without crashing. 
     

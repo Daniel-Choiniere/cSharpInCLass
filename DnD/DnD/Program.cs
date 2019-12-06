@@ -49,6 +49,10 @@ namespace DnD
 
         private static void HitPoints(int numDice)
         {
+            if (numDice == 1)
+            {
+                Console.WriteLine("Your armor was no match for that attack!");
+            }
             List<int> damageDiceArr = new List<int>();
             
             for (var i = 0; i < numDice; i++)
