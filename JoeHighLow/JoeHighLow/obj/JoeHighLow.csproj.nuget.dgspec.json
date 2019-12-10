@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj": {}
+    "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/JoeHighLow.csproj": {}
   },
   "projects": {
-    "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj": {
+    "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/JoeHighLow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
-        "projectName": "BestHandCSharp",
-        "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
+        "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/JoeHighLow.csproj",
+        "projectName": "JoeHighLow",
+        "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/JoeHighLow.csproj",
         "packagesPath": "/Users/danchoiniere/.nuget/packages/",
-        "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/",
+        "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

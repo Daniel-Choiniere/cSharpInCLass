@@ -62,10 +62,9 @@ namespace GoFish
 
         public Card PullSingleCard()
         {
-            var cardIndex = random.Next(Cards.Count);
+            Card singleCard = Cards[0];
 
-            var cardForNewHand = Cards[cardIndex];
-            Cards.RemoveAt(cardIndex);
+            return singleCard;
         }
     }
 }

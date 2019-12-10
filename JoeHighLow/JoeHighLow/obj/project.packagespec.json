@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
-    "projectName": "BestHandCSharp",
-    "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/BestHandCSharp.csproj",
-    "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/BestHandCSharp/BestHandCSharp/obj/",
+    "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/JoeHighLow.csproj",
+    "projectName": "JoeHighLow",
+    "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/JoeHighLow.csproj",
+    "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

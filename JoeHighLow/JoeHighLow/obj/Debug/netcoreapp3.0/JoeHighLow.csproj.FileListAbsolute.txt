@@ -1,0 +1,11 @@
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.deps.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.runtimeconfig.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.runtimeconfig.dev.json
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.pdb
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.csprojAssemblyReference.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.AssemblyInfoInputs.cache
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.AssemblyInfo.cs
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.dll
+/Users/danchoiniere/careerDevs/cSharpInCLass/JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.pdb
