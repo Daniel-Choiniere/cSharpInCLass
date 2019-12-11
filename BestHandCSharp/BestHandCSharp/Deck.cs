@@ -41,25 +41,28 @@ namespace BestHandCSharp
             }
         }
         
-        public void CreateHand()
+        public List<Card> CreateHand(int handSize)
         {
-            int handSize = 8;
-            
-            List<Card> cardsToMakeHandFrom = new List<Card>(Cards);
-            Cards.Clear();
-            
+            List<Card> hand = new List<Card>();
+
             for (int numCards = 0; numCards < handSize; numCards++)
             {
-                var cardIndex = random.Next(cardsToMakeHandFrom.Count);
+                var cardIndex = random.Next(Cards.Count);
 
-                var cardForNewHand = cardsToMakeHandFrom[cardIndex];
-                cardsToMakeHandFrom.RemoveAt(cardIndex);
-
-                Cards.Add(cardForNewHand);
+                var cardForNewHand = Cards[cardIndex];
+                Cards.RemoveAt(cardIndex);
+                
+                hand.Add(cardForNewHand);
             }
+            return hand;
         }
-
-        public int SumOfHand()
+        
+        public void DiscardCard(Card cardToDiscard)
+        {
+            Cards.Add(cardToDiscard);
+        }
+        
+        public int SumOfHand(List<Card> playerHand)
         {
             var myDict = new Dictionary<string, int>
             {
@@ -79,7 +82,7 @@ namespace BestHandCSharp
             };
             
             int total = 0;
-            foreach (Card card in Cards)
+            foreach (Card card in playerHand)
             {
                 int result;
                 if (myDict.TryGetValue(card.Number.ToString(), out result))
@@ -90,5 +93,6 @@ namespace BestHandCSharp
             Console.Write("Total sum of hand is: " + total + "\n");
             return total;
         }
+   
     }    
 }

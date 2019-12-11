@@ -6,8 +6,9 @@ namespace BestHandCSharp
     {
         static void Main(string[] args)
         {
-            int numberOfPlayers = 4;
-            Game.StartGame(numberOfPlayers);
+            int handSize = 8;
+            int numberOfPlayers = 2;
+            Game.StartGame(numberOfPlayers, handSize);
         }
     }
 }
