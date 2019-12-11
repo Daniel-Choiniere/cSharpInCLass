@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="GoFish" t="IncludeRecursive">
+      <e p="GoFIsh" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Card.cs" t="Include" />
         <e p="Deck.cs" t="Include" />

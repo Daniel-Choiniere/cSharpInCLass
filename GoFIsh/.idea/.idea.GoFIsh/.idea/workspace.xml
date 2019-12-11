@@ -2,49 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31aa9c0b-a28b-431c-aaee-0721df6d0109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/.idea/.idea.JoeHighLow/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/JoeHighLow.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/bin/Debug/netcoreapp3.0/JoeHighLow.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/Debug/netcoreapp3.0/JoeHighLow.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/JoeHighLow.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/JoeHighLow.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/JoeHighLow.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/JoeHighLow.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JoeHighLow/JoeHighLow/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/BestHandCSharp.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/BestHandCSharp.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/BestHandCSharp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/BestHandCSharp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/.idea/.idea.BestHandCSharp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/.idea/.idea.BestHandCSharp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Deck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/bin/Debug/netcoreapp3.0/BestHandCSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BestHandCSharp/BestHandCSharp/obj/Debug/netcoreapp3.0/BestHandCSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFIsh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/Deck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/FishForCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/FishForCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/bin/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoFish/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/Debug/netcoreapp3.0/GoFish.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/GoFish.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoFish/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GoFish/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +107,7 @@
       <updated>1575422853336</updated>
       <workItem from="1575422855027" duration="11657000" />
       <workItem from="1576006116124" duration="3165000" />
+      <workItem from="1576020159975" duration="1345000" />
     </task>
     <servers />
   </component>

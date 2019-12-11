@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/GoFish.csproj",
+    "projectUniqueName": "/Users/danchoiniere/careerDevs/cSharpInCLass/GoFIsh/GoFish/GoFish.csproj",
     "projectName": "GoFish",
-    "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/GoFish.csproj",
-    "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/GoFish/GoFish/obj/",
+    "projectPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/GoFIsh/GoFish/GoFish.csproj",
+    "outputPath": "/Users/danchoiniere/careerDevs/cSharpInCLass/GoFIsh/GoFish/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

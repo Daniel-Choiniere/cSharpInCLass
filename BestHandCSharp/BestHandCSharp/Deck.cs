@@ -41,24 +41,28 @@ namespace BestHandCSharp
             }
         }
         
-        public void CreateHand()
+        public List<Card> CreateHand(int handSize)
         {
-            int handSize = 8;
-            
-            List<Card> cardsToMakeHandFrom = new List<Card>(Cards);
-            Cards.Clear();
-            
+            List<Card> hand = new List<Card>();
+
             for (int numCards = 0; numCards < handSize; numCards++)
             {
-                var cardIndex = random.Next(cardsToMakeHandFrom.Count);
+                var cardIndex = random.Next(Cards.Count);
 
-                var cardForNewHand = cardsToMakeHandFrom[cardIndex];
-                cardsToMakeHandFrom.RemoveAt(cardIndex);
-
-                Cards.Add(cardForNewHand);
+                var cardForNewHand = Cards[cardIndex];
+                Cards.RemoveAt(cardIndex);
+                
+                hand.Add(cardForNewHand);
             }
+            return hand;
         }
-
+        
+        public void DiscardCard()
+        {
+            
+        }
+        
+        
         public int SumOfHand()
         {
             var myDict = new Dictionary<string, int>

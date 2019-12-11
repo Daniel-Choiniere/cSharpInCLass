@@ -15,6 +15,7 @@
             </e>
           </e>
         </e>
+        <e p="Player.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Suit.cs" t="Include" />
       </e>
