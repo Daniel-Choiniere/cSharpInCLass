@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BestHandCSharp
+﻿namespace BestHandCSharp
 {
     public class Program
     {

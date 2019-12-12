@@ -19,9 +19,7 @@ namespace BestHandCSharp
             for (int suitIndex = 0; suitIndex < 4; suitIndex++)
             {
                 for (int cardNumberIndex = 0; cardNumberIndex < 13; cardNumberIndex++)
-                {
                     deck.Cards.Add(new Card((Card.CardNumber)cardNumberIndex, (Suit)suitIndex));
-                }
             }
             return deck;
         }
@@ -86,9 +84,7 @@ namespace BestHandCSharp
             {
                 int result;
                 if (myDict.TryGetValue(card.Number.ToString(), out result))
-                {
                     total += result;
-                }
             }   
             Console.Write("Total sum of hand is: " + total + "\n");
             return total;
