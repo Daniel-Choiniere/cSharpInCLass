@@ -30,11 +30,8 @@ namespace BestHandCSharp
 
             var splitInput = cardToTrade.Split(" ");
             
-            
             foreach (string word in splitInput)
                 Console.WriteLine(word);
-            
-            
         }
     }
 }
