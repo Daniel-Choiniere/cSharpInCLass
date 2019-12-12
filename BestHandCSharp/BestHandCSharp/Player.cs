@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BestHandCSharp
 {
@@ -32,6 +33,17 @@ namespace BestHandCSharp
             
             foreach (string word in splitInput)
                 Console.WriteLine(word);
+
+            foreach (Card card in hand)
+            {
+                if (card.Number.ToString() == splitInput[0] && card.Suit.ToString() == splitInput[1])
+                {
+                    Console.WriteLine("Its a match");
+                }
+            }
+//            
+//            var itemToRemove = hand.Single(r => r. == 2);
+//            hand.Remove(itemToRemove);
         }
     }
 }
