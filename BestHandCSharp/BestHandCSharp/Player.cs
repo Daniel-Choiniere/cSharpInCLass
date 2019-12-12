@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 
 namespace BestHandCSharp
 {
@@ -23,6 +24,13 @@ namespace BestHandCSharp
                 Console.WriteLine("{0} {1}", card.Number, card.Suit);
         }
         
+        public static void DisplayHand(List<Card> hand)
+        {
+            foreach (Card card in hand)
+                Console.WriteLine("{0} {1}", card.Number, card.Suit);
+        }
+        
+        
         public void ExchangeACard(List<Card> hand)
         {
             Console.WriteLine("");
@@ -30,20 +38,18 @@ namespace BestHandCSharp
             var cardToTrade = Console.ReadLine();
 
             var splitInput = cardToTrade.Split(" ");
-            
-            foreach (string word in splitInput)
-                Console.WriteLine(word);
 
-            foreach (Card card in hand)
+            List<Card> handToRemoveCard = new List<Card>(hand);
+            foreach (Card card in handToRemoveCard)
             {
                 if (card.Number.ToString() == splitInput[0] && card.Suit.ToString() == splitInput[1])
                 {
-                    Console.WriteLine("Its a match");
+                    hand.Remove(card);
                 }
             }
-//            
-//            var itemToRemove = hand.Single(r => r. == 2);
-//            hand.Remove(itemToRemove);
+            Console.WriteLine("");
+            DisplayHand(hand);
+
         }
     }
 }
