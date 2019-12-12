@@ -6,7 +6,7 @@ namespace BestHandCSharp
     {
         public static void StartGame(int players, int handSize, int numOfRounds)
         {
-            var deck = Deck.CreateFullDeck();
+            Deck deck = Deck.CreateFullDeck();
             deck.Shuffle();
             
             Card randomCard = deck.PullSingleCard();

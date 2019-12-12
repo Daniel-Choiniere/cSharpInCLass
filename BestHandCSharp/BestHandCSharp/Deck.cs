@@ -6,11 +6,23 @@ namespace BestHandCSharp
     public class Deck
     {
         public List<Card> Cards { get; }
+        List<Card> discardPile = new List<Card>();
+        
         readonly Random random = new Random();
         
         private Deck()
         {
             Cards = new List<Card>();
+        }
+
+        private void AddToDiscard(Card discardedCard)
+        {
+            discardPile.Add(discardedCard);
+
+            foreach (var item in discardPile)
+            {
+                Console.WriteLine("Discard Pile Item: " + item.Number + " " + item.Suit);
+            }
         }
         
         public static Deck CreateFullDeck()
@@ -58,7 +70,7 @@ namespace BestHandCSharp
         public void DiscardCard( List<Card> hand, Card cardToDiscard)
         {
             hand.Remove(cardToDiscard);
-            Cards.Add(cardToDiscard);
+            AddToDiscard(cardToDiscard);
         }
 
         public Card PullSingleCard()
