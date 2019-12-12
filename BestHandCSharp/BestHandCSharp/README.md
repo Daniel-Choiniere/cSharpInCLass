@@ -1,5 +1,3 @@
-USE BRANCH VERSION3.0
-
 CODE REVIEW:
 I am still getting the hang of building my classes, and working in an Object Oriented mindset, 
 and would love to hear feedack on any thing I can do to improve my code.
