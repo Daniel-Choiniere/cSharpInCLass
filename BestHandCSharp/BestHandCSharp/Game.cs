@@ -4,20 +4,24 @@ namespace BestHandCSharp
 {
     public class Game
     {
-        public static void StartGame(int players, int handSize)
+        public static void StartGame(int players, int handSize, int numOfRounds)
         {
             var deck = Deck.CreateFullDeck();
             deck.Shuffle();
             
+            Card randomCard = deck.PullSingleCard();
+            
 //            List<int> DeckList = new List<int>();
             var playerList = createListOfPlayersWithHands(players, handSize, deck);
-            
-            foreach (Player player in playerList)
-            {
-                Player.DisplayHand(player);
-                player.ExchangeACard(player.playerDeck);
-            }
 
+            for (var rounds = 0; rounds < numOfRounds; rounds++)
+            {
+                foreach (Player player in playerList)
+                {
+                    Player.DisplayHand(player);
+                    player.ExchangeACard(player.playerDeck, deck);
+                }
+            }
 //            var winner = DeckList.IndexOf(DeckList.Max());
 //            Console.WriteLine("The winner is Player: {0}", winner + 1);
         }

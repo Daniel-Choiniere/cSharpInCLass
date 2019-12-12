@@ -6,7 +6,9 @@
         {
             int handSize = 8;
             int numberOfPlayers = 2;
-            Game.StartGame(numberOfPlayers, handSize);
+            int numOfRounds = 5;
+
+            Game.StartGame(numberOfPlayers, handSize, numOfRounds);
         }
     }
 }

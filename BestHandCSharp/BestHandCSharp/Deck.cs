@@ -55,9 +55,17 @@ namespace BestHandCSharp
             return hand;
         }
         
-        public void DiscardCard(Card cardToDiscard)
+        public void DiscardCard( List<Card> hand, Card cardToDiscard)
         {
+            hand.Remove(cardToDiscard);
             Cards.Add(cardToDiscard);
+        }
+
+        public Card PullSingleCard()
+        {
+            int randomIndex = random.Next(Cards.Count);
+            Cards.RemoveAt(randomIndex);
+            return Cards[randomIndex];
         }
         
         public int SumOfHand(List<Card> playerHand)
