@@ -34,24 +34,28 @@ namespace BestHandCSharp
         public void ExchangeACard(List<Card> hand, Deck deck)
         {
             Console.WriteLine("");
-            Console.WriteLine("What card(s) would you like to trade in?");
-            var cardToTrade = Console.ReadLine().ToUpper();
-
-            var splitInput = cardToTrade.Split(" ");
-
-            List<Card> handToRemoveCard = new List<Card>(hand);
-            foreach (Card card in handToRemoveCard)
+            while (Console.ReadLine() != "exchange")
             {
-                if (card.Number.ToString().ToUpper() == splitInput[0] && card.Suit.ToString().ToUpper() == splitInput[1])
+                Console.WriteLine("List a card you would you like to swap for a card from the deck, if no swap necessary type exchange");
+                var cardToTrade = Console.ReadLine().ToUpper();
+
+                var splitInput = cardToTrade.Split(" ");
+
+                List<Card> handToRemoveCard = new List<Card>(hand);
+                foreach (Card card in handToRemoveCard)
                 {
-                    deck.DiscardCard(hand, card);
-                    Card singleCard = deck.PullSingleCard();
-                    hand.Add(singleCard);
+                    if (card.Number.ToString().ToUpper() == splitInput[0] && card.Suit.ToString().ToUpper() == splitInput[1])
+                    {
+                        deck.DiscardCard(hand, card);
+                        Card singleCard = deck.PullSingleCard();
+                        hand.Add(singleCard);
+                    }
                 }
+            
+                Console.WriteLine("");
+                DisplayHand(hand);
             }
             
-            Console.WriteLine("");
-            DisplayHand(hand);
         }
     }
 }

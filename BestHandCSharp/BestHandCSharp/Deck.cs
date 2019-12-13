@@ -14,15 +14,10 @@ namespace BestHandCSharp
         {
             Cards = new List<Card>();
         }
-
+        
         private void AddToDiscard(Card discardedCard)
         {
             discardPile.Add(discardedCard);
-
-            foreach (var item in discardPile)
-            {
-                Console.WriteLine("Discard Pile Item: " + item.Number + " " + item.Suit);
-            }
         }
         
         public static Deck CreateFullDeck()
@@ -75,9 +70,9 @@ namespace BestHandCSharp
 
         public Card PullSingleCard()
         {
-            int randomIndex = random.Next(Cards.Count);
-            Cards.RemoveAt(randomIndex);
-            return Cards[randomIndex];
+            Card singleCard = Cards[0];
+            Cards.RemoveAt(0);
+            return singleCard;
         }
         
         public int SumOfHand(List<Card> playerHand)
